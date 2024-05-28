@@ -44,7 +44,7 @@ public class MyController {
 	@PutMapping("user/{id}")
 	public Employee updateEmployee(@PathVariable int id, @RequestBody Employee e)
 	{
-		return myService.updateEmpData(id, null);
+		return myService.updateEmpData(id, e);
 
 	}
 	
