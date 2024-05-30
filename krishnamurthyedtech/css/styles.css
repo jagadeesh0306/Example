@@ -1,0 +1,100 @@
+
+       
+       
+       
+       * {
+            margin: 0;
+            padding: 0;
+         
+        }
+        p{
+            color: black;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar-menu, .navbar-contact {
+            display: flex;
+            list-style-type: none;
+            color: blue;
+        }
+        .navbar-link, .navbar-contact-link {
+            text-decoration: none;
+        }
+        .navbar-menu li, .navbar-contact li {
+            margin: 0 20px; 
+        }
+        .navbar-menu li:last-child {
+            margin-right: 80px; 
+        }
+        .navbar-menu li:nth-last-child(2) {
+            margin-right: 20px; 
+        }
+        .navbar-logo{
+            padding: 10px;
+            margin: 5px;
+            font-size: xx-large;
+            color: blue;
+        }
+        
+        .container2{
+            display: flex;
+            align-items: center;
+            margin: 20px;
+            justify-content: space-between;
+            
+        }
+        .card1, .card2, .card3{
+            border: 1px solid black;
+            height: 150px;
+            box-shadow: 1px 1px 2px 2px gray;
+            width: 330px;
+            border-radius: 5px;
+        }
+        h3, p{
+            padding: 5px;
+            margin: 2px;
+        }
+        h3{
+            color: blue;
+        }
+
+       .hi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       }
+       .container3{
+        margin: 10px;
+        padding: 10px;
+       }
+       .card4{
+        margin: 150px;
+        padding: 30px;
+        border: 1px solid black;
+        width: 380px;
+        height: 280px;
+        background-color: black;
+        border-radius: 240px;
+        color: white;
+       }
+       h2, input{
+        text-align: center;
+       }
+       .about1{
+        margin: 50px;
+        padding: 5px;
+       }
+       .hello{
+        margin: 50px;
+        color: rgb(146, 40, 40);
+       }
+      .form-div{
+        
+        text-align: center;
+
+      }
+        
+       
