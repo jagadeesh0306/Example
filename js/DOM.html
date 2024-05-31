@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DOM Example</title>
+<style>
+  .highlight {
+    color: red;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+
+<h1 id="heading">Hello, World!</h1>
+<p id="paragraph">This is a paragraph.</p>
+
+<button id="btn">Click me</button>
+
+<script>
+  // Accessing elements from the DOM
+  const heading = document.getElementById('heading');
+  const paragraph = document.getElementById('paragraph');
+  const button = document.getElementById('btn');
+
+  // Changing content and style
+  heading.innerHTML = 'Welcome to my Website!';
+  paragraph.classList.add('highlight');
+
+  // Adding event listener
+  button.addEventListener('click', function() {
+    alert('Your responce has been submited!');
+  });
+</script>
+
+</body>
+</html>
